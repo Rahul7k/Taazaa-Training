@@ -1,0 +1,219 @@
+create database day10;
+\l
+\c day10
+create table Taazaa_Training(ID INT GENERATED ALWAYS AS IDENTITY, Name VARCHAR(50), Address VARCHAR(50) NOT NULL, Age NUMERIC(5,2), PRIMARY KEY(ID));
+select * from Taazaa_training;
+
+Inserting Values to Table:
+INSERT INTO Taazaa_Training(Name, Address, Age) VALUES('Rahul', 'Noida', 22);
+
+ id |   name   | address |  age
+----+----------+---------+-------
+  1 | Rahul    | Noida   | 22.00
+  2 | Gurpreet | Noida   | 23.00
+  3 | Gopal    | Lucknow | 25.00
+
+1. Update: used to change the present records in a table.
+UPDATE Taazaa_Training SET age=19 WHERE name='Gopal';
+
+id |   name   | address |  age
+----+----------+---------+-------
+  1 | Rahul    | Noida   | 22.00
+  2 | Gurpreet | Noida   | 23.00
+  3 | Gopal    | Lucknow | 19.00
+
+2. Delete: used to delete all existing records from a table.
+DELETE FROM Taazaa_Training WHERE name='Gurpreet';
+
+ id | name  | address |  age
+----+-------+---------+-------
+  1 | Rahul | Noida   | 22.00
+  3 | Gopal | Lucknow | 19.00
+
+
+Inserting More values
+ id |   name   | address |  age
+----+----------+---------+-------
+  1 | Rahul    | Noida   | 22.00
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+  5 | Saurabh  | Jaipur  | 24.00
+
+3. Where - WHERE clause is used to specify a condition while fetching the data from single table or joining with multiple tables;
+
+SELECT name FROM Taazaa_Training WHERE address='Lucknow';
+
+ Gopal
+ Prashant
+
+4. Order By - used for sorting data in ascending or descending order;
+SELECT * FROM Taazaa_Training ORDER BY age ASC;
+ id |   name   | address |  age
+----+----------+---------+-------
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+  1 | Rahul    | Noida   | 22.00
+  5 | Saurabh  | Jaipur  | 24.00
+
+5. Group By - Group by statement is used to group the rows that have the same value. 
+   It is often used with aggregate functions for example: AVG(), MAX(), COUNT(), MIN() etc.
+SELECT address FROM Taazaa_Training GROUP BY address;
+ Jaipur
+ Noida
+ Lucknow
+
+6. HAVING - used to eliminate groups of rows that do not meet specific criteria or conditions.
+
+
+
+
+7. DISTINCT - SELECT statement with the DISTINCT clause is used to remove duplicates rows from a result set of query data.
+SELECT DISTINCT address FROM Taazaa_Training ORDER BY address ASC;
+ Jaipur
+ Lucknow
+ Noida
+
+8. used to get a subset of rows produced by a command.
+
+select * from Taazaa_Training ORDER BY age LIMIT 2;
+
+ id |   name   | address |  age
+----+----------+---------+-------
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+
+9. FETCH -  FETCH clause has a functionality similar to the PostgreSQL LIMIT clause. It is used to retrieve a portion of rows returned by a query.
+Syntax:
+OFFSET start { ROW | ROWS }
+FETCH { FIRST | NEXT } [ row_count ] { ROW | ROWS } ONLY
+
+select * from Taazaa_Training ORDER BY age FETCH NEXT 2 ROWS ONLY;
+
+ id |   name   | address |  age
+----+----------+---------+-------
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+
+10. IN - used to help reduce the need to use multiple OR conditions in a SELECT, INSERT, UPDATE, or DELETE statement.
+select * from Taazaa_Training WHERE address IN('Noida', 'Lucknow');
+
+ id |   name   | address |  age
+----+----------+---------+-------
+  1 | Rahul    | Noida   | 22.00
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+
+11. LIKE - used to fetch data from a table where the defined condition satisfies the LIKE condition. The result contains strings, which are case-sensitive and follow the specified pattern.
+'a%' - a followed by any no of character
+'%a' - any no of character followed by a (last character)
+'_a' - one character before a
+
+select * from Taazaa_Training where address LIKE '%ow';
+
+ id |   name   | address |  age
+----+----------+---------+-------
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+
+12. NOT - NOT condition is used with the WHERE clause to negate a condition in a command.
+
+select * from Taazaa_Training where address NOT LIKE '%ow';
+ id |  name   | address |  age
+----+---------+---------+-------
+  1 | Rahul   | Noida   | 22.00
+  5 | Saurabh | Jaipur  | 24.00
+
+OR - used to return the data if any of the conditions divided by OR is TRUE.
+select * from Taazaa_Training where name='Rahul' or address='Jaipur';
+ id |  name   | address |  age
+----+---------+---------+-------
+  1 | Rahul   | Noida   | 22.00
+  5 | Saurabh | Jaipur  | 24.00
+
+INSERT INTO Taazaa_Training(Name, Address, Age) VALUES('Sukhdev', 'Delhi', 22);
+
+AND - The AND operator allows the existence of multiple conditions in a PostgreSQL statement's WHERE clause.
+select * from Taazaa_Training where name='Rahul' AND age=22;
+ id | name  | address |  age
+----+-------+---------+-------
+  1 | Rahul | Noida   | 22.00
+
+13. BETWEEN - used to define how to retrieve values from an expression within a specific range.
+select * from Taazaa_Training where age between 20 and 22;
+ id |   name   | address |  age
+----+----------+---------+-------
+  1 | Rahul    | Noida   | 22.00
+  4 | Prashant | Lucknow | 21.00
+  6 | Sukhdev  | Delhi   | 22.00 
+
+14. EXIST - used with the WHERE clause to evaluate the existing rows in a subquery.
+
+select * from Taazaa_Training where exists (select name from Taazaa_Training where name='Rahul');
+ id |   name   | address |  age
+----+----------+---------+-------
+  1 | Rahul    | Noida   | 22.00
+  3 | Gopal    | Lucknow | 19.00
+  4 | Prashant | Lucknow | 21.00
+  5 | Saurabh  | Jaipur  | 24.00
+  6 | Sukhdev  | Delhi   | 22.00
+(5 rows)
+
+select * from Taazaa_Training where exists (select name from Taazaa_Training where name='Karan');
+ id | name | address | age
+----+------+---------+-----
+(0 rows)
+
+
+
+
+
+After Lunch:
+
+1. Date - DATE data type to store date values. It takes 4 bytes of storage and ranges from 4713 BC to 5874897 AD.
+	- uses the yyyy-mm-dd format for storing and inserting date values.
+
+ALTER TABLE Taazaa_training ADD COLUMN Hire_Date DATE;
+
+2. NUMERIC - store the numbers with various significant numbers of digits.
+	   - NUMERIC (precision, scale)
+ ALTER TABLE Taazaa_training ADD COLUMN Salary NUMERIC(7,2);
+
+3. CHARACTER - Char(n) - Fixed-length, blank padded
+	       varchar(n) - Allows to declare variable-length with a limit
+	       Text - can use this data type to declare a variable with unlimited length
+
+4. Time -
+HH:MM   
+HH:MM:SS
+HHMMSS 
+ ALTER TABLE Taazaa_training ADD COLUMN Office_Time TIME;
+
+5. SMALLINT - MALLINT data type small range integer involves 2 bytes of storage size and store integers in the signed range and unsigned range.
+
+6. ARRAY [] - PostgreSQL allows us to specify a column as an array of any valid data type, which involves user-defined data type, enumerated data type, and built-in datatype
+
+ALTER TABLE Taazaa_training ADD COLUMN Mob_No TEXT [];
+
+
+Since values are already there in some columns so we need to update that column
+
+update Taazaa_Training set post='ASET', no_of_vehicles=2 where id=1;
+
+ id |   name   | address |  age  | hire_date | salary | post | office_time | no_of_vehicles | mob_no
+----+----------+---------+-------+-----------+--------+------+-------------+----------------+--------
+  3 | Gopal    | Lucknow | 19.00 |           |        |      |             |                |
+  4 | Prashant | Lucknow | 21.00 |           |        |      |             |                |
+  5 | Saurabh  | Jaipur  | 24.00 |           |        |      |             |                |
+  6 | Sukhdev  | Delhi   | 22.00 |           |        |      |             |                |
+  1 | Rahul    | Noida   | 22.00 |           |        | ASET |             |              2 |
+(5 rows)
+
+update Taazaa_Training set hire_date='2021-08-09', salary=40.00, office_time='10:00', mob_no=ARRAY['9832566']  where id=1;
+ id |   name   | address |  age  | hire_date  | salary | post | office_time | no_of_vehicles |  mob_no
+----+----------+---------+-------+------------+--------+------+-------------+----------------+-----------
+  3 | Gopal    | Lucknow | 19.00 |            |        |      |             |                |
+  4 | Prashant | Lucknow | 21.00 |            |        |      |             |                |
+  5 | Saurabh  | Jaipur  | 24.00 |            |        |      |             |                |
+  6 | Sukhdev  | Delhi   | 22.00 |            |        |      |             |                |
+  1 | Rahul    | Noida   | 22.00 | 2021-08-09 |  40.00 | ASET | 10:00:00    |              2 | {9832566}
+(5 rows)

@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\Polymorphism.exe
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\Polymorphism.deps.json
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\Polymorphism.runtimeconfig.json
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\Polymorphism.runtimeconfig.dev.json
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\Polymorphism.dll
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\ref\Polymorphism.dll
+D:\Taazaa-Training\Day12\Polymorphism\bin\Debug\net5.0\Polymorphism.pdb
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.AssemblyInfo.cs
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.dll
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\ref\Polymorphism.dll
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.pdb
+D:\Taazaa-Training\Day12\Polymorphism\obj\Debug\net5.0\Polymorphism.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ListProg.exe
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ListProg.deps.json
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ListProg.runtimeconfig.json
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ListProg.runtimeconfig.dev.json
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ListProg.dll
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ref\ListProg.dll
+D:\Taazaa-Training\Day14\ListProg\bin\Debug\net5.0\ListProg.pdb
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.AssemblyInfo.cs
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.dll
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ref\ListProg.dll
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.pdb
+D:\Taazaa-Training\Day14\ListProg\obj\Debug\net5.0\ListProg.genruntimeconfig.cache

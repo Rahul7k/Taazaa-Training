@@ -1,0 +1,131 @@
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+Password for user postgres:
+psql (13.4)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=# \l
+                                                 List of databases
+   Name    |  Owner   | Encoding |          Collate           |           Ctype            |   Access privileges
+-----------+----------+----------+----------------------------+----------------------------+-----------------------
+ dbname    | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ postgres  | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ practice1 | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ rahul     | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ template0 | postgres | UTF8     | English_United States.1252 | English_United States.1252 | =c/postgres          +
+           |          |          |                            |                            | postgres=CTc/postgres
+ template1 | postgres | UTF8     | English_United States.1252 | English_United States.1252 | =c/postgres          +
+           |          |          |                            |                            | postgres=CTc/postgres
+(6 rows)
+
+
+postgres=# CREATE DATABASE assign_day9;
+CREATE DATABASE
+postgres=# \l
+                                                  List of databases
+    Name     |  Owner   | Encoding |          Collate           |           Ctype            |   Access privileges
+-------------+----------+----------+----------------------------+----------------------------+-----------------------
+ assign_day9 | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ dbname      | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ postgres    | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ practice1   | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ rahul       | postgres | UTF8     | English_United States.1252 | English_United States.1252 |
+ template0   | postgres | UTF8     | English_United States.1252 | English_United States.1252 | =c/postgres          +
+             |          |          |                            |                            | postgres=CTc/postgres
+ template1   | postgres | UTF8     | English_United States.1252 | English_United States.1252 | =c/postgres          +
+             |          |          |                            |                            | postgres=CTc/postgres
+(7 rows)
+
+
+postgres=# \c assign_day9
+You are now connected to database "assign_day9" as user "postgres".
+assign_day9=# CREATE TABLE employee(e_id INT GENERETED ALWAYS AS IDENTITY, e_name VARCHAR(30) NOT NULL, PRIMARY KEY(e_id));
+ERROR:  syntax error at or near "GENERETED"
+LINE 1: CREATE TABLE employee(e_id INT GENERETED ALWAYS AS IDENTITY,...
+                                       ^
+assign_day9=# CREATE TABLE employee(e_id INT GENERATED ALWAYS AS IDENTITY, e_name VARCHAR(30) NOT NULL, PRIMARY KEY(e_id));
+CREATE TABLE
+assign_day9=# select * from employee;
+ e_id | e_name
+------+--------
+(0 rows)
+
+
+assign_day9=# CREATE TABLE emp_details(cont_id INT GENERATED ALWAYS AS IDENTITY, e_name VARCHAR(30), e_id INT, phone INT, email VARCHAR(30), j_year INT, designation INT, PRIMARY KEY (cont_id, email), CONSTRAINT fk_emp FOREIGN KEY(e_id) REFERENCES employee(e_id) );
+CREATE TABLE
+assign_day9=# select * from emp_details;
+ cont_id | e_name | e_id | phone | email | j_year | designation
+---------+--------+------+-------+-------+--------+-------------
+(0 rows)
+
+
+assign_day9=# INSERT INTO employee(e_name) VALUES('Rahul');
+INSERT 0 1
+assign_day9=# INSERT INTO employee(e_name) VALUES('Prashant');
+INSERT 0 1
+assign_day9=# INSERT INTO employee(e_name) VALUES('Gopal');
+INSERT 0 1
+assign_day9=# INSERT INTO employee(e_name) VALUES('Divya');
+INSERT 0 1
+assign_day9=# INSERT INTO employee(e_name) VALUES('Gurpreet');
+INSERT 0 1
+assign_day9=# INSERT INTO employee(e_name) VALUES('Sukhdev');
+INSERT 0 1
+assign_day9=# select * from employee;
+ e_id |  e_name
+------+----------
+    1 | Rahul
+    2 | Prashant
+    3 | Gopal
+    4 | Divya
+    5 | Gurpreet
+    6 | Sukhdev
+(6 rows)
+
+
+assign_day9=# ALTER TABLE emp_details DROP COLUMN e_name;
+ALTER TABLE
+assign_day9=# select * from emp_details;
+ cont_id | e_id | phone | email | j_year | designation
+---------+------+-------+-------+--------+-------------
+(0 rows)
+
+
+assign_day9=# ALTER TABLE emp_details ALTER COLUMN designation TYPE VARCHAR(20);
+ALTER TABLE
+assign_day9=# select * from emp_details;
+ cont_id | e_id | phone | email | j_year | designation
+---------+------+-------+-------+--------+-------------
+(0 rows)
+
+
+assign_day9=# INSERT INTO emp_details(e_id, phone, email, j_year, designation) VALUES(1, 73437, 'abc@abc.com', 2021, 'ASET' );
+INSERT 0 1
+assign_day9=# INSERT INTO emp_details(e_id, phone, email, j_year, designation) VALUES(2, 33437, 'sdd@abc.com', 2017, 'SE' );
+INSERT 0 1
+assign_day9=# INSERT INTO emp_details(e_id, phone, email, j_year, designation) VALUES(4, 93437, 'wwd@abc.com', 2018, 'ASE' );
+INSERT 0 1
+assign_day9=# INSERT INTO emp_details(e_id, phone, email, j_year, designation) VALUES(3, 53437, 'ewd@abc.com', 2018, 'ASE' );
+INSERT 0 1
+assign_day9=# INSERT INTO emp_details(e_id, phone, email, j_year, designation) VALUES(5, 43447, 'sdd@abc.com', 2015, 'SSE' );
+INSERT 0 1
+assign_day9=# INSERT INTO emp_details(e_id, phone, email, j_year, designation) VALUES(6, 53446, 'wer@abc.com', 2015, 'SSE' );
+INSERT 0 1
+assign_day9=# select * from emp_details;
+ cont_id | e_id | phone |    email    | j_year | designation
+---------+------+-------+-------------+--------+-------------
+       1 |    1 | 73437 | abc@abc.com |   2021 | ASET
+       2 |    2 | 33437 | sdd@abc.com |   2017 | SE
+       3 |    4 | 93437 | wwd@abc.com |   2018 | ASE
+       4 |    3 | 53437 | ewd@abc.com |   2018 | ASE
+       5 |    5 | 43447 | sdd@abc.com |   2015 | SSE
+       6 |    6 | 53446 | wer@abc.com |   2015 | SSE
+(6 rows)
+
+
+assign_day9=#

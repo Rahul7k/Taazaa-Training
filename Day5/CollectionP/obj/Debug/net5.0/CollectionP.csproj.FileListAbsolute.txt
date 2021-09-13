@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\CollectionP.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\CollectionP.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\CollectionP.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\CollectionP.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\CollectionP.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\ref\CollectionP.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\bin\Debug\net5.0\CollectionP.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\ref\CollectionP.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\CollectionP\obj\Debug\net5.0\CollectionP.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\AddUpdateAssignment.exe
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\AddUpdateAssignment.deps.json
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\AddUpdateAssignment.runtimeconfig.json
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\AddUpdateAssignment.runtimeconfig.dev.json
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\AddUpdateAssignment.dll
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\ref\AddUpdateAssignment.dll
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\bin\Debug\net5.0\AddUpdateAssignment.pdb
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.csproj.AssemblyReference.cache
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.AssemblyInfoInputs.cache
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.AssemblyInfo.cs
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.csproj.CoreCompileInputs.cache
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.dll
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\ref\AddUpdateAssignment.dll
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.pdb
+D:\TaazaaAssignments\Day8\AddUpdateAssignment\obj\Debug\net5.0\AddUpdateAssignment.genruntimeconfig.cache

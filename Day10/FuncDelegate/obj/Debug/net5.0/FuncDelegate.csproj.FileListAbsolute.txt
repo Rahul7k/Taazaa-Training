@@ -1,0 +1,16 @@
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\FuncDelegate.exe
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\FuncDelegate.deps.json
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\FuncDelegate.runtimeconfig.json
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\FuncDelegate.runtimeconfig.dev.json
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\FuncDelegate.dll
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\ref\FuncDelegate.dll
+D:\Taazaa-Assignments\Day10\FuncDelegate\bin\Debug\net5.0\FuncDelegate.pdb
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.csproj.AssemblyReference.cache
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.AssemblyInfoInputs.cache
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.AssemblyInfo.cs
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.csproj.CoreCompileInputs.cache
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.dll
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\ref\FuncDelegate.dll
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.pdb
+D:\Taazaa-Assignments\Day10\FuncDelegate\obj\Debug\net5.0\FuncDelegate.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\AnonymousMethod.exe
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\AnonymousMethod.deps.json
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\AnonymousMethod.runtimeconfig.json
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\AnonymousMethod.runtimeconfig.dev.json
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\AnonymousMethod.dll
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\ref\AnonymousMethod.dll
+D:\Taazaa-Assignments\Day10\AnonymousMethod\bin\Debug\net5.0\AnonymousMethod.pdb
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.csproj.AssemblyReference.cache
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.AssemblyInfoInputs.cache
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.AssemblyInfo.cs
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.csproj.CoreCompileInputs.cache
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.dll
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\ref\AnonymousMethod.dll
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.pdb
+D:\Taazaa-Assignments\Day10\AnonymousMethod\obj\Debug\net5.0\AnonymousMethod.genruntimeconfig.cache

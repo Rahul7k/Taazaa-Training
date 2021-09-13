@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\IndexerPractice.exe
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\IndexerPractice.deps.json
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\IndexerPractice.runtimeconfig.json
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\IndexerPractice.runtimeconfig.dev.json
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\IndexerPractice.dll
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\ref\IndexerPractice.dll
+D:\Taazaa-Training\Day13\IndexerPractice\bin\Debug\net5.0\IndexerPractice.pdb
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.AssemblyInfo.cs
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.dll
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\ref\IndexerPractice.dll
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.pdb
+D:\Taazaa-Training\Day13\IndexerPractice\obj\Debug\net5.0\IndexerPractice.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\Array3.exe
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\Array3.deps.json
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\Array3.runtimeconfig.json
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\Array3.runtimeconfig.dev.json
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\Array3.dll
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\ref\Array3.dll
+D:\Taazaa-Assignments\Assignment10\Array3\bin\Debug\net5.0\Array3.pdb
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.csproj.AssemblyReference.cache
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.AssemblyInfoInputs.cache
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.AssemblyInfo.cs
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.csproj.CoreCompileInputs.cache
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.dll
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\ref\Array3.dll
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.pdb
+D:\Taazaa-Assignments\Assignment10\Array3\obj\Debug\net5.0\Array3.genruntimeconfig.cache

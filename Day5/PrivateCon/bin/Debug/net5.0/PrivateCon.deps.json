@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "PrivateCon/1.0.0": {
+        "runtime": {
+          "PrivateCon.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PrivateCon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\Interface3.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\Interface3.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\Interface3.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\Interface3.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\Interface3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\ref\Interface3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\bin\Debug\net5.0\Interface3.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\ref\Interface3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Interface3\obj\Debug\net5.0\Interface3.genruntimeconfig.cache

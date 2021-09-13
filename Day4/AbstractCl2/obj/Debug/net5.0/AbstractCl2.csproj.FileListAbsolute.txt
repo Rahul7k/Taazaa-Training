@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\AbstractCl2.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\AbstractCl2.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\AbstractCl2.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\AbstractCl2.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\AbstractCl2.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\ref\AbstractCl2.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\bin\Debug\net5.0\AbstractCl2.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\ref\AbstractCl2.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\AbstractCl2\obj\Debug\net5.0\AbstractCl2.genruntimeconfig.cache

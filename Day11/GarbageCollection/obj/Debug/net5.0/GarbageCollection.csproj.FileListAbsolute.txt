@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\GarbageCollection.exe
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\GarbageCollection.deps.json
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\GarbageCollection.runtimeconfig.json
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\GarbageCollection.runtimeconfig.dev.json
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\GarbageCollection.dll
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\ref\GarbageCollection.dll
+D:\Taazaa-Training\Day11\GarbageCollection\bin\Debug\net5.0\GarbageCollection.pdb
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.AssemblyInfo.cs
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.dll
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\ref\GarbageCollection.dll
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.pdb
+D:\Taazaa-Training\Day11\GarbageCollection\obj\Debug\net5.0\GarbageCollection.genruntimeconfig.cache

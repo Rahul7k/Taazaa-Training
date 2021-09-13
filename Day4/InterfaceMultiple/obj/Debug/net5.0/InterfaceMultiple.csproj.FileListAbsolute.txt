@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\InterfaceMultiple.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\InterfaceMultiple.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\InterfaceMultiple.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\InterfaceMultiple.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\InterfaceMultiple.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\ref\InterfaceMultiple.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\bin\Debug\net5.0\InterfaceMultiple.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\ref\InterfaceMultiple.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\InterfaceMultiple\obj\Debug\net5.0\InterfaceMultiple.genruntimeconfig.cache

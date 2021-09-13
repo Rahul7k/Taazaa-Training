@@ -1,0 +1,16 @@
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\Delagate.exe
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\Delagate.deps.json
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\Delagate.runtimeconfig.json
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\Delagate.runtimeconfig.dev.json
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\Delagate.dll
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\ref\Delagate.dll
+D:\Taazaa-Assignments\Day10\Delagate\bin\Debug\net5.0\Delagate.pdb
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.csproj.AssemblyReference.cache
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.AssemblyInfoInputs.cache
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.AssemblyInfo.cs
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.csproj.CoreCompileInputs.cache
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.dll
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\ref\Delagate.dll
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.pdb
+D:\Taazaa-Assignments\Day10\Delagate\obj\Debug\net5.0\Delagate.genruntimeconfig.cache

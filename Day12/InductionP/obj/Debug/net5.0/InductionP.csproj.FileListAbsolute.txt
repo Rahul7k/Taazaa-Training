@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\InductionP.exe
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\InductionP.deps.json
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\InductionP.runtimeconfig.json
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\InductionP.runtimeconfig.dev.json
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\InductionP.dll
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\ref\InductionP.dll
+D:\Taazaa-Training\Day12\InductionP\bin\Debug\net5.0\InductionP.pdb
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.AssemblyInfo.cs
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.dll
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\ref\InductionP.dll
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.pdb
+D:\Taazaa-Training\Day12\InductionP\obj\Debug\net5.0\InductionP.genruntimeconfig.cache

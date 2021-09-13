@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ThreadingProgram.exe
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ThreadingProgram.deps.json
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ThreadingProgram.runtimeconfig.json
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ThreadingProgram.runtimeconfig.dev.json
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ThreadingProgram.dll
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ref\ThreadingProgram.dll
+D:\Taazaa-Training\Day14\ThreadingProgram\bin\Debug\net5.0\ThreadingProgram.pdb
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.AssemblyInfo.cs
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.dll
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ref\ThreadingProgram.dll
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.pdb
+D:\Taazaa-Training\Day14\ThreadingProgram\obj\Debug\net5.0\ThreadingProgram.genruntimeconfig.cache

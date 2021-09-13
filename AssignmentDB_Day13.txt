@@ -1,0 +1,306 @@
+postgres=# create database DB_Assignment13;
+CREATE DATABASE
+---------------
+postgres=# \c db_assignment13
+You are now connected to database "db_assignment13" as user "postgres".
+
+
+Creating table
+----------
+db_assignment13=# create table Emp_Details(
+db_assignment13(# e_id int generated always as identity,
+db_assignment13(# e_name varchar(30) not null, emp_address varchar(30), salary numeric(5,3), primary key (e_id));
+CREATE TABLE
+db_assignment13=# select * from emp_details;
+ e_id | e_name | emp_address | salary
+------+--------+-------------+--------
+(0 rows)
+
+
+Alter table
+----------------
+db_assignment13=# alter table emp_details alter column salary type numeric(10,2);
+ALTER TABLE
+
+
+Inserting Values
+----------------------
+db_assignment13=# insert into emp_details(e_name, emp_address, salary) values('Rahul', 'Noida', 400000);
+INSERT 0 1
+db_assignment13=# insert into emp_details(e_name, emp_address, salary) values('Prashant', 'Pune', 3250000);
+INSERT 0 1
+db_assignment13=# insert into emp_details(e_name, emp_address, salary) values('Saurabh', 'Bangalore', 1200000);
+INSERT 0 1
+db_assignment13=# insert into emp_details(e_name, emp_address, salary) values('Harshit', 'Noida', 900000);
+INSERT 0 1
+db_assignment13=# insert into emp_details(e_name, emp_address, salary) values('Divya', 'Noida', 400000);
+INSERT 0 1
+db_assignment13=# insert into emp_details(e_name, emp_address, salary) values('Saumya', 'Bangalore', 1400000);
+INSERT 0 1
+
+db_assignment13=# select * from emp_details;
+ e_id |  e_name  | emp_address |   salary
+------+----------+-------------+------------
+    1 | Rahul    | Noida       |  400000.00
+    2 | Prashant | Pune        | 3250000.00
+    3 | Saurabh  | Bangalore   | 1200000.00
+    4 | Harshit  | Noida       |  900000.00
+    5 | Divya    | Noida       |  400000.00
+    6 | Saumya   | Bangalore   | 1400000.00
+(6 rows)
+--------------------------------
+db_assignment13=# create table comp_details(
+db_assignment13(# c_name varchar(30), c_address varchar(30), sal_offered numeric(10, 2), primary key (c_name));
+CREATE TABLE
+db_assignment13=# select * from comp_details;
+ c_name | c_address | sal_offered
+--------+-----------+-------------
+(0 rows)
+
+
+db_assignment13=# insert into comp_details(c_name, c_address, sal_offered) values('Amazon', 'Pune', 3250000);
+INSERT 0 1
+db_assignment13=# insert into comp_details(c_name, c_address, sal_offered) values('IBM', 'Bangalore', 1200000);
+INSERT 0 1
+db_assignment13=# insert into comp_details(c_name, c_address, sal_offered) values('Policy Bazaar', 'Noida', 900000);
+INSERT 0 1
+db_assignment13=# insert into comp_details(c_name, c_address, sal_offered) values('Taazaa', 'Noida', 400000);
+INSERT 0 1
+db_assignment13=# insert into comp_details(c_name, c_address, sal_offered) values('BharatPay', 'Delhi', 800000);
+INSERT 0 1
+db_assignment13=# select * from comp_details;
+    c_name     | c_address | sal_offered
+---------------+-----------+-------------
+ Amazon        | Pune      |  3250000.00
+ IBM           | Bangalore |  1200000.00
+ Policy Bazaar | Noida     |   900000.00
+ Taazaa        | Noida     |   400000.00
+ BharatPay     | Delhi     |   800000.00
+(4 rows)
+
+
+DISTINCT keyword
+---------------------
+db_assignment13=# select DISTINCT emp_address from emp_details;
+ emp_address
+
+ Pune
+ Noida
+ Bangalore
+(3 rows)
+
+
+IN Keywoed
+------------------
+db_assignment13=# select * from emp_details where emp_address IN('Noida', 'Pune');
+ e_id |  e_name  | emp_address |   salary
+------+----------+-------------+------------
+    1 | Rahul    | Noida       |  400000.00
+    2 | Prashant | Pune        | 3250000.00
+    4 | Harshit  | Noida       |  900000.00
+    5 | Divya    | Noida       |  400000.00
+(4 rows)
+
+
+LIKE Keyword
+----------------------
+
+db_assignment13=# select * from emp_details where emp_address LIKE '%e';
+ e_id |  e_name  | emp_address |   salary
+------+----------+-------------+------------
+    2 | Prashant | Pune        | 3250000.00
+    3 | Saurabh  | Bangalore   | 1200000.00
+(2 rows)
+
+
+db_assignment13=# select * from emp_details where emp_address='Noida' and e_name LIKE '%h__';
+ e_id | e_name  | emp_address |  salary
+------+---------+-------------+-----------
+    1 | Rahul   | Noida       | 400000.00
+    4 | Harshit | Noida       | 900000.00
+(2 rows)
+
+
+EXISTS Keyword
+--------------------
+db_assignment13=# select * from comp_details where exists (select c_address from comp_details where c_address='Pune');
+    c_name     | c_address | sal_offered
+---------------+-----------+-------------
+ Amazon        | Pune      |  3250000.00
+ IBM           | Bangalore |  1200000.00
+ Policy Bazaar | Noida     |   900000.00
+ Taazaa        | Noida     |   400000.00
+(4 rows)
+
+
+db_assignment13=# select * from comp_details where exists (select emp_address from emp_details where c_address='Pune');
+ c_name | c_address | sal_offered
+--------+-----------+-------------
+ Amazon | Pune      |  3250000.00
+(1 row)
+
+
+JOINS
+----------------
+db_assignment13=# select emp_details.e_name, comp_details.c_name, emp_details.salary, comp_details.sal_offered from emp_details left join comp_details on emp_details.salary=comp_details.sal_offered;
+  e_name  |    c_name     |   salary   | sal_offered
+----------+---------------+------------+-------------
+ Rahul    | Taazaa        |  400000.00 |   400000.00
+ Prashant | Amazon        | 3250000.00 |  3250000.00
+ Saurabh  | IBM           | 1200000.00 |  1200000.00
+ Harshit  | Policy Bazaar |  900000.00 |   900000.00
+ Divya    | Taazaa        |  400000.00 |   400000.00
+ Saumya   |               | 1400000.00 |
+(6 rows)
+
+
+db_assignment13=# select emp_details.e_name, comp_details.c_name, emp_details.salary, comp_details.sal_offered from emp_details right join comp_details on emp_details.salary=comp_details.sal_offered;
+  e_name  |    c_name     |   salary   | sal_offered
+----------+---------------+------------+-------------
+ Prashant | Amazon        | 3250000.00 |  3250000.00
+ Saurabh  | IBM           | 1200000.00 |  1200000.00
+ Harshit  | Policy Bazaar |  900000.00 |   900000.00
+ Divya    | Taazaa        |  400000.00 |   400000.00
+ Rahul    | Taazaa        |  400000.00 |   400000.00
+          | BharatPay     |            |   800000.00
+(6 rows)
+
+
+db_assignment13=# select emp_details.e_name, comp_details.c_name, emp_details.salary, comp_details.sal_offered from emp_details full join comp_details on emp_details.salary=comp_details.sal_offered;
+  e_name  |    c_name     |   salary   | sal_offered
+----------+---------------+------------+-------------
+ Rahul    | Taazaa        |  400000.00 |   400000.00
+ Prashant | Amazon        | 3250000.00 |  3250000.00
+ Saurabh  | IBM           | 1200000.00 |  1200000.00
+ Harshit  | Policy Bazaar |  900000.00 |   900000.00
+ Divya    | Taazaa        |  400000.00 |   400000.00
+ Saumya   |               | 1400000.00 |
+          | BharatPay     |            |   800000.00
+(7 rows)
+
+
+CROSS Join
+------------------------------
+
+db_assignment13=# select emp_details.e_name, comp_details.c_name from emp_details cross join comp_details;
+  e_name  |    c_name
+----------+---------------
+ Rahul    | Amazon
+ Rahul    | IBM
+ Rahul    | Policy Bazaar
+ Rahul    | Taazaa
+ Rahul    | BharatPay
+ Prashant | Amazon
+ Prashant | IBM
+ Prashant | Policy Bazaar
+ Prashant | Taazaa
+ Prashant | BharatPay
+ Saurabh  | Amazon
+ Saurabh  | IBM
+ Saurabh  | Policy Bazaar
+ Saurabh  | Taazaa
+ Saurabh  | BharatPay
+ Harshit  | Amazon
+ Harshit  | IBM
+ Harshit  | Policy Bazaar
+ Harshit  | Taazaa
+ Harshit  | BharatPay
+ Divya    | Amazon
+ Divya    | IBM
+ Divya    | Policy Bazaar
+ Divya    | Taazaa
+ Divya    | BharatPay
+ Saumya   | Amazon
+ Saumya   | IBM
+ Saumya   | Policy Bazaar
+ Saumya   | Taazaa
+ Saumya   | BharatPay
+(30 rows)
+
+
+
+Self Join
+--------------------------
+
+db_assignment13=# select e.e_name||''||e.emp_address, x.e_name||''||x.emp_address from emp_details e left join emp_details x on e.e_name=x.e_name;
+     ?column?     |     ?column?
+------------------+------------------
+ RahulNoida       | RahulNoida
+ PrashantPune     | PrashantPune
+ SaurabhBangalore | SaurabhBangalore
+ HarshitNoida     | HarshitNoida
+ DivyaNoida       | DivyaNoida
+ SaumyaMyntra     | SaumyaMyntra
+(6 rows)
+
+
+VIEWS
+---------------------
+db_assignment13=# create view multipleview as select emp_details.e_name, comp_details.sal_offered from emp_details, comp_details;
+CREATE VIEW
+db_assignment13=# select * from multipleview;
+  e_name  | sal_offered
+----------+-------------
+ Rahul    |  3250000.00
+ Rahul    |  1200000.00
+ Rahul    |   900000.00
+ Rahul    |   400000.00
+ Rahul    |   800000.00
+ Prashant |  3250000.00
+ Prashant |  1200000.00
+ Prashant |   900000.00
+ Prashant |   400000.00
+ Prashant |   800000.00
+ Saurabh  |  3250000.00
+ Saurabh  |  1200000.00
+ Saurabh  |   900000.00
+ Saurabh  |   400000.00
+ Saurabh  |   800000.00
+ Harshit  |  3250000.00
+ Harshit  |  1200000.00
+ Harshit  |   900000.00
+ Harshit  |   400000.00
+ Harshit  |   800000.00
+ Divya    |  3250000.00
+ Divya    |  1200000.00
+ Divya    |   900000.00
+ Divya    |   400000.00
+ Divya    |   800000.00
+ Saumya   |  3250000.00
+ Saumya   |  1200000.00
+ Saumya   |   900000.00
+ Saumya   |   400000.00
+ Saumya   |   800000.00
+(30 rows)
+
+
+------------------
+db_assignment13=# create function getSal(ename varchar)
+db_assignment13-# returns numeric as $$
+db_assignment13$# begin
+db_assignment13$# return(select salary from emp_details where e_name=ename);
+db_assignment13$# end;
+db_assignment13$# $$ language plpgsql;
+CREATE FUNCTION
+
+db_assignment13=# select getSal('Prashant');
+   getsal
+------------
+ 3250000.00
+(1 row)
+
+
+------------
+db_assignment13=# create function countRecords()
+db_assignment13-# returns integer as $$
+db_assignment13$# begin
+db_assignment13$# return(select count(*) from emp_details);
+db_assignment13$# end;
+db_assignment13$# $$ language plpgsql;
+CREATE FUNCTION
+db_assignment13=# select countRecords();
+ countrecords
+--------------
+            6
+(1 row)
+

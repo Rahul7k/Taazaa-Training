@@ -1,0 +1,16 @@
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\FuncDelegate.exe
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\FuncDelegate.deps.json
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\FuncDelegate.runtimeconfig.json
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\FuncDelegate.runtimeconfig.dev.json
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\FuncDelegate.dll
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\ref\FuncDelegate.dll
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\bin\Debug\net5.0\FuncDelegate.pdb
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.csproj.AssemblyReference.cache
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.AssemblyInfoInputs.cache
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.AssemblyInfo.cs
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.csproj.CoreCompileInputs.cache
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.dll
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\ref\FuncDelegate.dll
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.pdb
+D:\TaazaaAssignments\AssignmentSunday1\FuncDelegate\obj\Debug\net5.0\FuncDelegate.genruntimeconfig.cache

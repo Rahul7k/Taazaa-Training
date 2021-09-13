@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\PrivateCon.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\PrivateCon.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\PrivateCon.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\PrivateCon.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\PrivateCon.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\ref\PrivateCon.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\bin\Debug\net5.0\PrivateCon.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\ref\PrivateCon.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\PrivateCon\obj\Debug\net5.0\PrivateCon.genruntimeconfig.cache

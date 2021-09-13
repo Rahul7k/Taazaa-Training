@@ -1,0 +1,16 @@
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\MajorLogic.exe
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\MajorLogic.deps.json
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\MajorLogic.runtimeconfig.json
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\MajorLogic.runtimeconfig.dev.json
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\MajorLogic.dll
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\ref\MajorLogic.dll
+D:\Taazaa-Training\Day13\MajorLogic\bin\Debug\net5.0\MajorLogic.pdb
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.csproj.AssemblyReference.cache
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.AssemblyInfoInputs.cache
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.AssemblyInfo.cs
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.csproj.CoreCompileInputs.cache
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.dll
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\ref\MajorLogic.dll
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.pdb
+D:\Taazaa-Training\Day13\MajorLogic\obj\Debug\net5.0\MajorLogic.genruntimeconfig.cache

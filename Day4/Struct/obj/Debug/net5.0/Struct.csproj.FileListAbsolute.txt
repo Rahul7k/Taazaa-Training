@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\Struct.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\Struct.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\Struct.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\Struct.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\Struct.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\ref\Struct.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\bin\Debug\net5.0\Struct.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\ref\Struct.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assign4\Struct\obj\Debug\net5.0\Struct.genruntimeconfig.cache

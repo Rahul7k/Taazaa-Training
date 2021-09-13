@@ -1,0 +1,16 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\dictonary.exe
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\dictonary.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\dictonary.runtimeconfig.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\dictonary.runtimeconfig.dev.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\dictonary.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\ref\dictonary.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\bin\Debug\net5.0\dictonary.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\ref\dictonary.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment5\dictonary\obj\Debug\net5.0\dictonary.genruntimeconfig.cache

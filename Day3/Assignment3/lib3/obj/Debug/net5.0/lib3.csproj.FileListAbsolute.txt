@@ -1,0 +1,12 @@
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\bin\Debug\net5.0\lib3.deps.json
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\bin\Debug\net5.0\lib3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\bin\Debug\net5.0\ref\lib3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\bin\Debug\net5.0\lib3.pdb
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.csproj.AssemblyReference.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.AssemblyInfoInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.AssemblyInfo.cs
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.csproj.CoreCompileInputs.cache
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\ref\lib3.dll
+C:\Users\Rahul_7k7\Desktop\TaazaaAssignments\Assignment3\lib3\obj\Debug\net5.0\lib3.pdb

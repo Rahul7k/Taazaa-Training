@@ -1,0 +1,164 @@
+projectdb=# create table membership(
+projectdb(# username VARCHAR(30),
+projectdb(# password VARCHAR(20),
+projectdb(# age INT
+projectdb(# );
+CREATE TABLE
+projectdb=# select * from membership;
+ username | password | age
+----------+----------+-----
+
+
+-------------------------------------------
+ username | password | age
+----------+----------+-----
+ Rahul    | 23324    |  23
+ Prashant | dfd133   |  22
+ Gopal    | dfffwe   |  23
+(3 rows)
+
+
+
+-------------------------------------
+
+
+
+CREATE FUNCTION getAge(int)
+RETURNS SETOF
+as $$
+	begin
+		return (select * from membership);
+	end;
+$$ Language plpgsql;
+--------------------
+CREATE FUNCTION getDetail() RETURNS SETOF membership AS $$
+    SELECT * FROM membership;
+$$ LANGUAGE SQL;
+---------------------
+CREATE FUNCTION getDetail() RETURNS SETOF membership AS $$
+    SELECT * FROM membership;
+$$ LANGUAGE SQL;
+
+--------------------
+
+
+
+
+projectdb=# create function cityname(pin int)
+projectdb-# returns varchar
+projectdb-# language plpgsql
+projectdb-# as
+projectdb-# $$
+projectdb$# declare
+projectdb$# city varchar='Noida';
+projectdb$# begin
+projectdb$# if pin=10 then
+projectdb$# return city;
+projectdb$# end if;
+projectdb$# end;
+projectdb$# $$;
+CREATE FUNCTION
+
+projectdb=# select cityname(10);
+ cityname
+----------
+ Noida
+(1 row)
+
+
+projectdb=# CREATE FUNCTION getAge()
+projectdb-# returns integer
+projectdb-# as $$
+projectdb$# declare
+projectdb$# age integer = 100;
+projectdb$# begin
+projectdb$# return age;
+projectdb$# end;
+projectdb$# $$ Language plpgsql;
+CREATE FUNCTION
+projectdb=# select getAge();
+ getage
+--------
+    100
+(1 row)
+
+-----------------------------------------------
+
+Assignment
+1. Create a function in which you pass username as a parameter and which returns password
+
+projectdb=# CREATE FUNCTION getPassword(uname varchar)
+projectdb-# RETURNS varchar AS $$
+projectdb$# SELECT password FROM membership WHERE username = uname;
+projectdb$# $$ LANGUAGE SQL;
+CREATE FUNCTION
+
+projectdb=# select getPassword('Rahul');
+ getpassword
+-------------
+ 23324
+(1 row)
+
+
+2. Return number of records in a table
+
+projectdb=# CREATE FUNCTION countRecords()
+projectdb-# RETURNS integer AS $$
+projectdb$# SELECT COUNT(*) FROM membership;
+projectdb$# $$ LANGUAGE SQL;
+CREATE FUNCTION
+
+projectdb=# select countRecords();
+ countrecords
+--------------
+            3
+(1 row)
+
+
+
+
+CREATE FUNCTION countRecords()
+RETURNS integer AS $$
+SELECT COUNT(*) FROM membership;
+$$ LANGUAGE SQL;
+
+
+
+CREATE FUNCTION countRecords()
+RETURNS integer AS $$
+begin
+return(SELECT COUNT(*) FROM membership);
+end;
+$$ LANGUAGE plpgsql;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Gurpreet
+projectdb=# create function getuserpass(name varchar)
+projectdb-# returns varchar
+projectdb-# AS $$
+projectdb$# begin
+projectdb$# return (select password from membership where username=name);
+projectdb$# end ;
+projectdb$# $$ Language plpgsql;
+CREATE FUNCTION
+projectdb=# select * from getuserpass('Mike');
+ getuserpass
+-------------
+ 12345
+(1 row)
