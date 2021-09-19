@@ -1,0 +1,9 @@
+Packages:
+    dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 5.0.10
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.0.10
+    dotnet add package FluentValidation.AspNetCore --version 10.3.3
+
+    dotnet tool install --global dotnet-ef
+    dotnet ef migrations add phase/migrationName
+    dotnet ef database update                           //to create table to database
+
