@@ -1,0 +1,238 @@
+Rahul Kumar
+
+------------------------------------------------  Linq Inner Join  ------------------------------------------------------
+
+
+# Linq Inner join is used to return only the matching elements from both the data sources while the non-matching elements are removed from the result set.
+# The Linq provides the join operator to perform the joins using Query syntax.
+
+# Note: While performing the Linq inner join then there should exist a common element or property in both the data sources.
+
+# While working with Linq Join you need to understand the following five things.
+    Outer data source
+    Inner data source
+    Outer Key selector (common key in the outer data source)
+    Inner Key selector (Common key in the inner data source)
+    Result selector (project the data into a result set)
+
+
+
+LinqInnerJoin
+|
+|---- Models
+|	|
+|	|--- Employee.cs
+|	|--- Companies.cs
+|
+|
+|---- Repository
+|	|
+|	|--- EmployeesRepo.cs
+|	|--- CompaniesRepo.cs
+|
+|
+|---- Program.cs
+|
+
+
+
+Employees.cs
+------------
+
+namespace LinqInnerJoin.Models
+{
+    public class Employees
+    {
+        public int EmpId{get; set;}
+        public string EmpName{get; set;}
+        public string EmpCompany{get; set;}
+        public string EmpAddress{get; set;}
+    }
+}
+
+
+Companies.cs
+------------
+
+namespace LinqInnerJoin.Models
+{
+    public class Companies
+    {
+        public int CompId{get; set;}
+        public string CompName{get; set;}
+        public string CompAddress{get; set;}
+    }
+}
+
+
+
+EmployeesRepo.cs
+----------------
+
+using System.Collections.Generic;
+using LinqInnerJoin.Models;
+namespace LinqInnerJoin.Repository
+{
+    public class EmployeesRepo
+    {
+        public List<Employees> empList;
+        public EmployeesRepo()
+        {
+            empList = new List<Employees>();
+        }
+
+        public List<Employees> EmpDetails()
+        {
+            empList.Add(new Employees{
+                EmpId = 101,
+                EmpName = "Rahul",
+                EmpCompany = "Taazaa",
+                EmpAddress = "Noida"
+            });
+
+            empList.Add(new Employees{
+                EmpId = 102,
+                EmpName = "Prashant",
+                EmpCompany = "Amazon",
+                EmpAddress = "Pune"
+            });
+
+            empList.Add(new Employees{
+                EmpId = 103,
+                EmpName = "Saurabh",
+                EmpCompany = "IBM",
+                EmpAddress = "Bangalore"
+            });
+
+            empList.Add(new Employees{
+                EmpId = 104,
+                EmpName = "Gopal",
+                EmpCompany = "Crio",
+                EmpAddress = "Bangalore"
+            });
+
+            empList.Add(new Employees{
+                EmpId = 105,
+                EmpName = "Karan",
+                EmpCompany = "Taazaa",
+                EmpAddress = "Delhi"
+            });
+
+            return empList;
+        }
+    }
+}
+
+
+
+CompaniesRepo.cs
+----------------
+
+using System.Collections.Generic;
+using LinqInnerJoin.Models;
+namespace LinqInnerJoin.Repository
+{
+    public class CompaniesRepo
+    {
+        public List<Companies> compList;
+        public CompaniesRepo()
+        {
+            compList = new List<Companies>();
+        }
+
+        public List<Companies> CompDetails()
+        {
+            compList.Add(new Companies{
+                CompId = 1001,
+                CompName = "Amazon",
+                CompAddress = "Pune"
+            });
+
+            compList.Add(new Companies{
+                CompId = 1002,
+                CompName = "Taazaa",
+                CompAddress = "Noida"
+            });
+
+            compList.Add(new Companies{
+                CompId = 1003,
+                CompName = "Google",
+                CompAddress = "Bangalore"
+            });
+
+            compList.Add(new Companies{
+                CompId = 1004,
+                CompName = "Samsung SDE",
+                CompAddress = "Gurgaon"
+            });
+
+            compList.Add(new Companies{
+                CompId = 1005,
+                CompName = "Capgemini",
+                CompAddress = "Mumbai"
+            });
+
+            return compList;
+        }
+    }
+}
+
+
+
+Program.cs
+----------
+
+using System;
+using System.Linq;
+using System.Collections.Generic;
+using LinqInnerJoin.Models;
+using LinqInnerJoin.Repository;
+
+namespace LinqInnerJoin
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var empObj = new EmployeesRepo();
+            List<Employees> employees = empObj.EmpDetails();
+            var compObj = new CompaniesRepo();
+            List<Companies> companies = compObj.CompDetails();
+            
+
+            var innerJoinObj =  (
+                //Outer data source
+                from emp in employees 
+                //Inner data source
+                join comp in companies
+                //Fetching the data using on condition
+                on emp.EmpAddress equals comp.CompAddress
+                //Projecting the result set
+                select new 
+                {
+                    EmployeeName = emp.EmpName,
+                    Address = comp.CompAddress
+                }).ToList();
+
+            foreach(var temp in innerJoinObj)
+            {
+                Console.WriteLine("Employee Name: "+ temp.EmployeeName + "\n" + "Company Address: "+ temp.Address);
+            }
+        }
+    }
+}
+
+
+
+Output:
+------
+PS C:\Taazaa\Day29\LinqInnerJoin> dotnet run
+
+Employee Name: Rahul
+Company Address: Noida
+Employee Name: Prashant
+Company Address: Pune
+Employee Name: Saurabh
+Company Address: Bangalore
+Employee Name: Gopal
+Company Address: Bangalore

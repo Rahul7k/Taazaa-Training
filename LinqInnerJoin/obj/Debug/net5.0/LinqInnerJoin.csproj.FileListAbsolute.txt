@@ -1,0 +1,16 @@
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\LinqInnerJoin.exe
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\LinqInnerJoin.deps.json
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\LinqInnerJoin.runtimeconfig.json
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\LinqInnerJoin.runtimeconfig.dev.json
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\LinqInnerJoin.dll
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\ref\LinqInnerJoin.dll
+C:\Taazaa\Day29\LinqInnerJoin\bin\Debug\net5.0\LinqInnerJoin.pdb
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.csproj.AssemblyReference.cache
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.AssemblyInfoInputs.cache
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.AssemblyInfo.cs
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.csproj.CoreCompileInputs.cache
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.dll
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\ref\LinqInnerJoin.dll
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.pdb
+C:\Taazaa\Day29\LinqInnerJoin\obj\Debug\net5.0\LinqInnerJoin.genruntimeconfig.cache
